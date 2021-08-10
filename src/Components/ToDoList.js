@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import uniqid from 'uniqid'
-
+import './ToDoList.css';
 
 const ToDoList = () => {
     
@@ -44,16 +44,16 @@ const ToDoList = () => {
 
     return (
         <div>
-        <h1>TO DO LIST</h1>
+        <h1 className="title">TO DO LIST</h1>
         <div className="container">
             <div className="row">
                 <form className="form-group" onSubmit={edit? editlist : addTask} >
                     <h2>Enter Task's</h2>
-                    <input onChange={(event)=>{setTask(event.target.value)}} value = {task} type="text" placeholder="ex: Paying taxes" required/>
-                    <input className="btn btn-primary block m-3" type="submit" value={edit? "edit" : "Add"}/>
+                    <input  className='search' onChange={(event)=>{setTask(event.target.value)}} value = {task} type="text" placeholder="ex: Paying taxes" required/>
+                    <input className="btn btn-success m-3 addTask" type="submit" value={edit? "edit" : "Add"}/>
                 </form>
             </div>
-            <div className="row bg-danger">
+            <div className="card">
                 <h2>To Do</h2>  
                 <ul>
                     {     
