@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/daniel-galetto/ToDoList/static/css/main.47c14b3c.chunk.css",
+    "main.js": "/daniel-galetto/ToDoList/static/js/main.e662648c.chunk.js",
+    "main.js.map": "/daniel-galetto/ToDoList/static/js/main.e662648c.chunk.js.map",
+    "runtime-main.js": "/daniel-galetto/ToDoList/static/js/runtime-main.aa46e27c.js",
+    "runtime-main.js.map": "/daniel-galetto/ToDoList/static/js/runtime-main.aa46e27c.js.map",
+    "static/js/2.89981d98.chunk.js": "/daniel-galetto/ToDoList/static/js/2.89981d98.chunk.js",
+    "static/js/2.89981d98.chunk.js.map": "/daniel-galetto/ToDoList/static/js/2.89981d98.chunk.js.map",
+    "index.html": "/daniel-galetto/ToDoList/index.html",
+    "static/css/main.47c14b3c.chunk.css.map": "/daniel-galetto/ToDoList/static/css/main.47c14b3c.chunk.css.map",
+    "static/js/2.89981d98.chunk.js.LICENSE.txt": "/daniel-galetto/ToDoList/static/js/2.89981d98.chunk.js.LICENSE.txt",
+    "static/media/ToDoList.css": "/daniel-galetto/ToDoList/static/media/post-it.c3f2ee9a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa46e27c.js",
+    "static/js/2.89981d98.chunk.js",
+    "static/css/main.47c14b3c.chunk.css",
+    "static/js/main.e662648c.chunk.js"
+  ]
+}
